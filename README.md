@@ -32,10 +32,14 @@ Should have unit test
 
 # Project setup
 ## netcore backend
+
 run 
+
 PM> update-database 
 
 ## webapp
+
 npm install
+
 npm run serve
 
