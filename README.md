@@ -25,9 +25,9 @@ change the way of how it used the context, whit a context factory where only the
 # UI
 Should  have  the login to get the token
 
-Should have interceptor to attach the login and resolve the refreshTOKEN parameter on case of token expires and avoid to relogin for the users}
+Should have interceptor to attach the login and resolve the refreshTOKEN parameter on case of token expires and avoid to re-login for the users
 
-Should have unit test
+Should have unit testing
 
 
 # Project setup
