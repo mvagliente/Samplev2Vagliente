@@ -1,0 +1,12 @@
+.vs
+.vscode
+.cache
+
+bin
+obj
+dist
+node_modules
+
+app.db
+app.db-shm
+app.db-wal
