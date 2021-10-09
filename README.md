@@ -1,21 +1,30 @@
-# Sample 
-This project is created to discuss introdused issues with candidates that apply for a job.
-Feel free to copy, modify, run.  
+# code Review 
+# Backend
+Add auth controler to login user and get the token and refreshtoken (to avoid users need to re login when expires)
 
-Lets imagine that project was developed by some junior developer. 
-You task is to provide a feedback and points how the project can be improved.
+Add crud services that use all that instances that inherit from Entity class
 
-What project does:
-1. User inputs name of the street. Click search button.
-2. Gets the list of offices.
-3. User can select offices and then get list of users in those offices.
+Add Repository Generic that use all that instances that inherit from Entity class
 
-# server
+Add logger on the controllers and return code 500 in case of uncontrolled error.
 
-## Project setup
-Run project in VS studio and wait until initial data is bootstraped.
-Done.
+Add initial charge of database on seeding method working with EF core.
 
+Using identity for the users.roles,etc so the services and classes of users was replaced by identity.
+
+Add configuration on swagger for Bearer token if you want to get information from office or users need to send the token otherwise its going to respond with unauthorized code 401.
+
+Add dependency injection for crudservice and repository and defaultentity config.
+
+Unit testing is missing on the application should have the unit testing  from each controller and services to get un code coverage of at least 90%,
+
+
+# UI
+Should  have  the login to get the token
+
+Should have interceptor to attach the login and resolve the refresh parameter on case of token expires}
+
+Should have unit test
 
 # webapp
 
